@@ -1,20 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:portofolio/content.dart';
-import 'package:portofolio/styles.dart';
+import 'package:flutterolio/content.dart';
+import 'package:flutterolio/styles.dart';
 
-final card = new Container(
+final card = Container(
   child: content,
-  margin: new EdgeInsets.only(left: 46.0),
-  decoration: new BoxDecoration(
+  margin: EdgeInsets.only(left: 46.0),
+  decoration: BoxDecoration(
     color: AppTheme.primaryColor,
     shape: BoxShape.rectangle,
-    borderRadius: new BorderRadius.circular(8.0),
+    borderRadius: BorderRadius.circular(8.0),
     boxShadow: <BoxShadow>[
-      new BoxShadow(
+      BoxShadow(
         color: AppTheme.primaryShadow,
         blurRadius: 10.0,
-        offset: new Offset(0.0, 10.0),
+        offset: Offset(0.0, 10.0),
       ),
     ],
   ),

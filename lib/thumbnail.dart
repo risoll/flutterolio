@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:portofolio/const.dart';
+import 'package:flutterolio/config.dart';
 
 final thumbnail = Container(
   alignment: FractionalOffset.centerLeft,

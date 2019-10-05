@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:portofolio/home.dart';
+import 'package:flutterolio/config.dart';
+import 'package:flutterolio/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,10 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
-      title: 'Rizky Solechudin',
-      theme: CupertinoThemeData(
-        primaryColor: Colors.pink
-      ),
+      title: appTitle,
+      theme: CupertinoThemeData(primaryColor: Colors.pink),
       home: HomeScreen(),
     );
   }
